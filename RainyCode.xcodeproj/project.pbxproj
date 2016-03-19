@@ -14,7 +14,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D3BBAD21C9A346700F8191D /* RainyCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RainyCode-Bridging-Header.h"; sourceTree = "<group>"; };
 		3DA8B9361C99BEFB00ACD5DE /* RainyCode.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainyCode.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA8B93A1C99BEFB00ACD5DE /* RainyCode.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = RainyCode.xcscheme; path = RainyCode.xcodeproj/xcshareddata/xcschemes/RainyCode.xcscheme; sourceTree = SOURCE_ROOT; };
 		3DA8B93C1C99BEFB00ACD5DE /* RainyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainyCode.swift; sourceTree = "<group>"; };
@@ -48,7 +47,6 @@
 				3DA8B93E1C99BEFB00ACD5DE /* NSObject_Extension.swift */,
 				3DA8B9401C99BEFB00ACD5DE /* Info.plist */,
 				3DA8B9391C99BEFB00ACD5DE /* Supporting Files */,
-				3D3BBAD21C9A346700F8191D /* RainyCode-Bridging-Header.h */,
 			);
 			path = RainyCode;
 			sourceTree = "<group>";
@@ -224,7 +222,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = dimo.hamdy.RainyCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RainyCode/RainyCode-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = xcplugin;
 			};
@@ -244,7 +241,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = dimo.hamdy.RainyCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RainyCode/RainyCode-Bridging-Header.h";
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
