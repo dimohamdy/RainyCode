@@ -56,7 +56,7 @@ class RainyCode: NSObject {
         self.bundle = bundle
         
         super.init()
-        center.addObserver(self, selector: Selector("createMenuItems"), name: NSApplicationDidFinishLaunchingNotification, object: nil)
+        center.addObserver(self, selector: #selector(RainyCode.createMenuItems), name: NSApplicationDidFinishLaunchingNotification, object: nil)
         
         urlPath = self.bundle.pathForResource("rainymood", ofType: "m4a")!
         
@@ -86,7 +86,8 @@ class RainyCode: NSObject {
             menuItem!.submenu!.addItem(NSMenuItem.separatorItem())
             
             
-            actionMenuItem = NSMenuItem(title: "RainyCode OFF", action: "doOptionAction:", keyEquivalent: "r")
+            actionMenuItem = NSMenuItem(title: "RainyCode OFF", action: #selector(RainyCode.doOptionAction(_:))
+                , keyEquivalent: "r")
             
             actionMenuItem!.state = 0
             
