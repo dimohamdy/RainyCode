@@ -1,5 +1,5 @@
 # RainyCode
-An Xcode plugin to enjoy coding while listening to RainyMood.
+An Xcode plugin to enjoy coding while listening to [RainyMood Website]( http://www.rainymood.com/).
 
 ## How do I use it?
 
